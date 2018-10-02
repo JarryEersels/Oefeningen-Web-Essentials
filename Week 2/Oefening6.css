@@ -1,0 +1,78 @@
+body {
+    font-family: verdana;
+    background-color: #6a7689;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    font-size: larger;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#hover1:hover {
+    background-color: #3399ff;
+}
+
+#hover2:hover {
+    background-color: #66ff66;
+}
+
+#hover3:hover {
+    background-color: #ff9966;
+}
+
+#hover4:hover {
+    background-color: #ffff66;
+}
+
+#hover5:hover {
+    background-color: #ff66cc;
+}
+
+article {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+#Tomorrowland {
+    background-color: #3399ff;
+}
+
+#ADE {
+    background-color: #ff9966;
+}
+
+#UMF {
+    background-color: #66ff66;
+}
+
+#Pukkelpop {
+    background-color: #ffff66;
+}
+
+#Graspop {
+    background-color: #ff66cc;
+}
+
+ul {
+    list-style-image: url("assets/Icoon_2.svg");
+
+}

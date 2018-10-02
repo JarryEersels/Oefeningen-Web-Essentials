@@ -1,0 +1,46 @@
+body {
+    background-color: #c7ced8;
+    font-family: Roboto;
+}
+
+table {
+    width: 100%;
+    border-style: solid;
+    border: 2px;
+    color: white;
+    border-spacing: 0px;
+}
+.color {
+    background-color: #27426d;
+    width: 14%;
+}
+
+tr:nth-child(even) {
+    text-align: center;
+    background-color: #6facff;
+    width: 14%;
+
+}
+
+tr:nth-child(odd) {
+    text-align: center;
+    background-color: #4f8cef;
+    width: 14%;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+th {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}

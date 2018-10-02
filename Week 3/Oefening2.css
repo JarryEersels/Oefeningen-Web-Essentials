@@ -1,0 +1,101 @@
+body {
+    background-image: url("Assets_oefening2/hout.jpg");
+}
+
+table {
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: saddlebrown;
+    border-left-color: saddlebrown;
+    border-right-color: black;
+    border-bottom-color: black;
+    width: 800px;
+    height: 800px;
+    border-spacing: 0px;
+}
+
+.wit {
+    background-image: url("Assets_oefening2/witte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+
+.zwart {
+    background-image: url("Assets_oefening2/zwarte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article {
+    border-style: solid;
+    border-color: saddlebrown;
+    border-width: 3px;
+    float: right;
+    background-image: url("Assets_oefening2/witte-marmer.jpg");
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 70%;
+    height: 550px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+
+tr:nth-child(odd) td:nth-child(even){
+
+    background-image: url("Assets_oefening2/zwarte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background-image: url("Assets_oefening2/witte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-image: url("Assets_oefening2/zwarte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("Assets_oefening2/witte-marmer.jpg");
+    background-size: 100px 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: saddlebrown;
+}
+
+
